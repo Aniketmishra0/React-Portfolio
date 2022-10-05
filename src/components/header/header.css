@@ -1,0 +1,103 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+/*========================== Text Center ==================== Aniket */
+.header__container {
+    border: 7rem;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ========================== CTA ======================== */
+.cta {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    
+}
+
+/* ========================== Social ======================== */
+.header__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: auto;
+    bottom: 4rem ;   
+    
+}
+.header__social::after {
+    content: "";
+    width: 2px;
+    height: 3rem;
+    background: var(--color-primary);
+}
+/* ========================== End Social ======================== */
+/* ========================== Kalakari Social ======================== */
+
+
+
+
+
+
+
+
+/* ========================== Kalakari END Social ======================== */
+
+/* ========================== Image My Photo ======================== */
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 24rem;
+    height: 28rem;
+    position: relative;
+    left: calc(50% - 12rem);
+    margin-top: 3rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 3rem 1.5rem 1.5rem 1.5rem ;
+    
+}
+
+
+
+/* ========================== Scroll Down ======================== */
+.scroll__down{
+    position: absolute;
+    bottom: auto;
+    right: 5.5rem;
+    bottom: 12rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+/* .scroll__down::after {
+    content: "";
+    width: 2px;
+    height: 3rem;
+} */
+
+
+/* ===================== Media Queries (Medium Device) ====================== */
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+
+    }
+}
+
+/* ===================== Media Queries (Small Device) ====================== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header__social,
+    .scroll__down {
+        display: none;
+    }
+}

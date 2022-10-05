@@ -1,0 +1,115 @@
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}    
+
+.service {
+    background: var(--color-primary-verient);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary-verient);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover{
+    background: transparent;
+    border-color: var(--color-bg-1);
+    cursor: default;
+}
+
+.service__head{
+    background: var(--color-bg-1);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0,);
+}
+
+.service__head h3 {
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.service__list{
+    text-align: start;
+    padding: 1.5rem;
+}
+
+.service__list div{
+    gap: 1rem;
+    margin-bottom: 1fr;
+    padding: 1fr;
+}
+
+/* .service__list div {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+    padding: 1fr;
+
+}*/
+
+
+/* .service__list-icon {
+    display: grid;
+    color: var(--color-bg-1);
+    margin-top: rem;
+    padding: 1rem;
+} */
+/*
+.service__list p {
+    display: flex;
+    font-size: 0.9rem;
+    padding: 1rem;
+} */
+
+
+/* .service__list div {
+    position: static;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+
+} */
+
+.service__list-icon {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+    fill: rgb(0, 234, 255);
+}
+.service__list-icon {
+    right: 1.6rem;
+    top: 1.5rem;
+    display: flex;
+    margin-top: 2px;
+}
+
+.service__list p {
+    font-size: 0.9rem;
+    text-align: "." center;
+
+}
+/* ===================== Media Queries (Medium Device) ====================== */
+@media screen and (max-width: 1024px) {
+    .services__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .service {
+        height: auto;
+    }
+}
+
+
+
+/* ===================== Media Queries (Small Device) ====================== */
+@media screen and (max-width: 600px) {
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
