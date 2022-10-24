@@ -1,3 +1,14 @@
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://raw.githubusercontent.com/aniketmishra0/hacktoberfest2021/35fc6060c5ddead5792f29a2437fea160dbe9804/Assets/logo-hacktoberfest-full.f42e3b1.svg" width="30%">
+    </a>
+</p>
+
+<h1 align="center"> Hacktoberfest 2022 🎉</h1>
+
+<div align="center">
+
+
 Simple Responsive Portfolio Using React,Javascript, CSS and also HTML
 
 
@@ -6,9 +17,8 @@ Simple Responsive Portfolio Using React,Javascript, CSS and also HTML
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Demo [Web-Portfolio](https://iamaniketmishra.azurewebsites.net)
+## Demo [Web-Portfolio](https://web-app-aniketmishra0.vercel.app/)
 
-(https://web-app-aniketmishra0.vercel.app/)
 
 ## Available Scripts
 
